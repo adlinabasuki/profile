@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display");
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #decfc2;
+  color: #3d0261;
+  text-align: center;
+  padding: 25px;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', sans-serif;
+  color: #9362d0;
+}
+
+li {
+  display: inline;
+}
+
+ul {
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: #4B0377;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.3 ease;
+}
+
+a:hover {
+  color: #3E92CC;
+}
+
+.card {
+  background-color: #EEEEEE;
+  padding: 50px;
+  width: 500px;
+  margin: 25px auto;
+  border-radius: 5px;
+  border: 1px solid #570A57;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+}
+
+#profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
